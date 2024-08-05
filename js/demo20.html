@@ -1,0 +1,31 @@
+<!--nested loop example-->
+
+<html>
+    <body>
+        <script>
+            let i = 5;
+          for(let i=1;i<=3;i++)
+        {
+            for(let j=1;j<=3;j++)
+            document.write(j +"<br>");
+        }
+
+        document.write("<br>")
+        for(let i=1;i<=3;i++)
+        {
+            for(let j=1;j<=3;j++)
+        {
+            document.write(i);
+        }
+           if(i!=3)
+           {
+            document.write(",");
+           }else
+           {
+            document.write(".");
+           }
+            
+        }
+        </script>
+    </body>
+</html>

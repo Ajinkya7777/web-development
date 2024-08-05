@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.flex-item{
+    height: 200px;
+    width: 300px;
+    border-color: black;
+    background-color: aqua;
+    
+    border: 1px solid black
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    /* flex-shrink:2; */
+    flex: 1 0 200px
+}

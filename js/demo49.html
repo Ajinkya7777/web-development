@@ -1,0 +1,57 @@
+<!--form validations-->
+
+<html>
+    <body>
+        <h1>Login Form</h1>
+        <form action="login.jsp" method="post" onsubmit="return validate()">
+            <label for="name">UserName</label>
+            <input type="text" name="uname" id="uname"><br>
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" id="pwd"><br><br>
+            <input type="submit"> <input type="reset">
+        </form>
+
+        <script>
+            
+  
+            function validate()
+            {
+                let uname=document.getElementById("uname");
+                uname.style.borderColor="black";
+                let pwd=document.getElementById("pwd");
+                pwd.style.borderColor="black";
+
+                if(uname.value.trim()=="")
+            {
+                uname.style.borderColor="red";
+                window.alert("username cannot be empty");
+                uname.value="";
+                return false;
+            }
+            else if(uname.value.length<=5)
+            {
+                uname.style.borderColor="red";
+                window.alert("username must be more than five");
+                return false;
+            }
+            else if(pwd.value.trim()=="")
+            {
+                pwd.style.borderColor="red";
+                window.alert("password cannnot be empty");
+                return false;
+            }
+            else if(pwd.value.length<=5)
+            {
+                pwd.style.borderColor="red";
+                window.alert("password must be more than five characters");
+                return false;
+            }
+            else 
+            {
+                return true;
+            }
+        }
+
+        </script>
+    </body>
+</html>

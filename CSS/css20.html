@@ -1,0 +1,49 @@
+<!--program to demonstrate :hover pseudo class-->
+
+<html>
+    <head>
+        <style>
+           div
+           {
+             border-style: solid;
+             width: 100;
+             border-color: red;
+             border-color: cyan;
+             background-color: black;
+             text-align: center;
+             margin-top: 100px;
+             margin-left: 500px;
+             border-width: 5px;
+             color: silver;
+           }
+
+           div:hover
+           {
+            transform: rotate(360deg);  /* rotatey , rotatez, rotatex(100deg) */
+            transform:translate(600px); /* translate(opx,500px),translate(500px , 500px) */
+            transition-duration: 20s;
+            transition: scale(2,2);
+            transition: scale(0,0);
+            transition: skew(50deg);
+            transition: skew(50deg,50deg);
+
+
+
+            /*
+            div:hover
+            {
+            transform: rotate(100deg);
+            transform-origin:250px 250px;
+            }
+            */
+           }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>HTML</h1>
+            <h2>CSS</h2>
+            <h3>JS</h3>
+        </div>
+    </body>
+</html>

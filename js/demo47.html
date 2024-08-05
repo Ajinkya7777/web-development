@@ -1,0 +1,16 @@
+<!--Regular Expression-->
+
+<html>
+    <body>
+        <script>
+            let re1 = /[afm]/;
+            document.write(re1.test("hello"));
+            let re2 = new RegExp("[^afm]");
+            document.write(re2.test("hello"));
+            let re3=/^he..o$/;
+            document.write(re3.test("hello"));
+            let re4=new RegExp("l{2}");
+            document.write(re4.test("hello"));
+        </script>
+    </body>
+</html>

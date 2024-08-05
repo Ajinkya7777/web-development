@@ -1,0 +1,19 @@
+<!--constructor function example -->
+
+<html>
+    <body>
+        <script>
+            function Emp(empNo,name,salary)
+            {
+                this.empNo=empNo;
+                this.name=name;
+                this.salary=salary;
+            }
+            let e1 = new Emp(101,"aaa",5000.00);
+            let e2 = new Emp(102,"bbb","6000.00");
+
+            document.write(e1.empNo,e1.name,e1.salary);
+            document.write(e2.empNo,e2.name,e2.salary);
+        </script>
+    </body>
+</html>

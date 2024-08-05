@@ -1,0 +1,20 @@
+<!--program to demonstrate click,double click , contextmenu-->
+
+<html>
+    <body>
+        <h1 id="demo">Welcome to Naresh It</h1>
+        <input type="button" value="Background Color" onclick="fun1()" ondblclick="fun2()" oncontextmenu="fun3()">
+        <script>
+            let element=document.getElementById("demo");
+            function fun1(){
+                element.style.backgroundColor="yellow";
+            }
+            function fun2(){
+                element.style.backgroundColor="cyan";
+            }
+            function fun3(){
+                element.style.backgroundColor="pink";
+            }
+        </script>
+    </body>
+</html>

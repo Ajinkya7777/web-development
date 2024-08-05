@@ -1,0 +1,35 @@
+<!--Focus Pseduo selector -->
+
+<html>
+    <head>
+        <Style>
+            input:focus
+            {
+                border-color: red;
+                border-width: 5px;
+            }
+
+            h1 
+            {
+                font-family: 'Times New Roman';
+                   color: gold;
+            }
+            body {
+                background-color: black;
+            }
+        </Style>
+    </head>
+
+    <body>
+        <center>
+            <h1><u>Login Form</u></h1>
+        <form action="reg.jsp" method="get">
+
+           <label for="userName">Username</label> <input type="text" name="UserName"><br>
+           <label for="password">Password</label> <input type="password" name="Password"><br>
+           <input type="submit"> <input type="reset"> 
+
+        </form>
+    </center>
+    </body>
+</html>

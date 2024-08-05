@@ -1,0 +1,27 @@
+<html>
+    <body id="demo">
+        <h1 id="test">Welcome</h1>
+        <script>
+            let i=0;
+            let j=1;
+
+            function fun()
+            {
+                let colors = ["cyan","yellow","orange","pink","blue","red"];
+            }
+            let element1 = document.getElementById("demo");
+            let element2 = document.getElementById("test");
+            element2.style.fontSize=j;
+            j+=10;
+            element1.style.backgroundColor=colors[i];
+            i++;
+            if(i==6)
+            {
+                i=0;
+            }
+            setInterval("fun()",1);
+
+        </script>
+         
+    </body>
+</html>

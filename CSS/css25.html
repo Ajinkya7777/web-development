@@ -1,0 +1,45 @@
+<!--invalid,valid,optional,required-->
+
+<html>
+    <head>
+        <style>
+            #demo:invalid 
+            {
+              border-style: solid;
+              border-color: red;
+              border-width: 5px;
+            }
+            #demo:valid 
+            {
+                border-style: solid;
+                border-color: green;
+                border-width: 5px;
+            }
+            .test:required
+            {
+                border-style: solid;
+                background-color: yellow;
+                border-width: 5px;
+            }
+            #demo:optional
+            {
+                border-style: solid;
+                background-color: cyan;
+                border-width: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Login Form</h1>
+        <form action="reg.jsp">
+            Username <input class="test" type="text" name="username" required><br>
+            Password <input class ="test" type="password" name="password" required><br>
+            Email <input id="demo" type="email" name="email" optional><br><br>
+            <input type="submit"> <input type="reset">
+
+
+
+        </form>
+    </body>
+</html>

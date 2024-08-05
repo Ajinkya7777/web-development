@@ -1,0 +1,41 @@
+<!-- login.html-->
+
+<html>
+
+    <body bgcolor="black" text="red">
+    <center>
+        <h1><u>Login Form</u></h1>
+        <form action="login.jsp" name="login" method="POST">
+            <label for="uname">Username</label> <input type="text" name="uname"><br>
+            <label for="pword">Password</label> <input type="password" name="pword"><br><br>
+            <input type="submit"> <input type="reset">
+            
+        </form>
+    </center>
+    </body>
+</html>
+
+<!-- the data travel in packets in get and post having body and headers 
+ differences bitween get and post method form attribute METHOD
+get : in (get method request paramters are included in headeres (insecure)
+post : in post method request parameters are included in body (secure)
+get : request parametes are displayed in address bar
+post : request paramets are not displayed in address bar
+get : the size of the data is limited in this method. ( 2048 characters)
+post : the size of the data is not limited in this method.
+get : in this approch data can be cached 
+post : in this aprroch data can never be cached. 
+get : this request are stored in browser history
+post:: this request are not stored in browser history.
+get : this can be bookmarked
+post : this can't be bookmarked.
+get : it supports text only
+post : it supports all types of data.  (audio,video,images)
+get : it is not secure
+post : it is secure
+get :  when our data is not sensitive go for get method
+post : when our data is sensitive go for post method
+get : we can send less amount of data go for get method
+post : when we want to send large amount data which is sensitive go for post
+
+-->

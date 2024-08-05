@@ -1,0 +1,24 @@
+<!--program to demonstrate click event-->
+
+
+<html>
+    <body>
+        <h1 id="demo">Welcome to Naresh IT</h1>
+        <input type="button"  value="red" onclick="fun1()">
+        <input type="button" value="green" onclick="fun2()">
+        <input type="button" value="blue" onclick="fun3()">
+
+        <script>
+            let element=document.getElementById("demo");
+            function fun1(){
+                element.style.color="red";
+            }
+            function fun2(){
+                element.style.color="green";
+            }
+            function fun3(){
+                element.style.color="blue";
+            }
+        </script>
+    </body>
+</html>

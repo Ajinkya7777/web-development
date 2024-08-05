@@ -1,0 +1,15 @@
+<!--program to demonstarte querySelector()  method & querySelectorAll() method-->
+<html>
+    <body>
+        <h1 id="demo">HTML</h1>
+        <h1 class="test">CSS</h1>
+        <h1 class="test">JS</h1>
+        <script>
+          let element=document.querySelector("#demo");
+          element.style.backgroundColor="pink";
+          let elements= document.querySelectorAll(".test");
+          elements[0].style.backgroundColor="Cyan";
+          elements[1].style.backgroundColor="Yellow";
+        </script>
+    </body>
+</html>

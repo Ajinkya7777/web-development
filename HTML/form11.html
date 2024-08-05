@@ -1,0 +1,28 @@
+<!--program to demonstrate the legend,textarea,fieldset-->
+
+<html>
+    <body bgcolor="black" text="red">
+        
+        <h1>General Information</h1>
+        <form action="reg.jsp">
+            <legend>Name</legend>
+            <fieldset>
+                <label for="firstName">FirstName</label><input type="text" name="fname"><br>
+                <lable for="LastName">LastName</lable><input type="text" name="lname"><br>
+            </fieldset>
+
+            <legend>Contact Information</legend>
+            <fieldset>
+                <label for="address">Address</label>
+                <textarea rows="3" cols="10" maxlength="50" name="address"></textarea><br><br>
+            </fieldset>
+
+            <legend>Submit</legend>
+            <fieldset>
+                <input type="submit">
+                <input type="reset">
+            </fieldset>
+        </form>
+    
+    </body>
+</html>

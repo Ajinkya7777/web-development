@@ -1,0 +1,27 @@
+<!--program to demonstrte asynchronous callback-->
+
+<html>
+    <body>
+        <script>
+            function fun1()
+            {
+                document.write("Task 1 completed<br>");
+                
+            }
+
+            function fun2()
+            {
+                document.write("Task 2 completed<br>");
+                
+            }
+            function fun3()
+            {
+                document.write("Task 3 completed<br>");
+            }
+            fun1();
+            setTimeout(fun2,0);
+            fun3();
+            
+        </script>
+    </body>
+</html>

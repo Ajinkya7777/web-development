@@ -1,0 +1,19 @@
+<!--Program to demonstrate mover hover and mouse events-->
+
+<html>
+    <body>
+        <h1 id="demo"> Welcome </h1>
+        <input type="button" value="alignment" onmouseover="fun1()" onmouseout="fun2()">
+        <script>
+        let element=document.getElementById("demo");
+        function fun1()
+        {
+            element.align="center";
+        }
+        function fun2()
+        {
+            element.align="right";
+        }
+        </script>
+    </body>
+</html>

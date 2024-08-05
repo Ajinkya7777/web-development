@@ -1,0 +1,22 @@
+<!--colors-->
+
+<html>
+    <body id="demo">
+
+        <script>
+            function fun()
+            {
+                let element= document.getElementById("demo");
+                let r = Math.trunc(Math.random()*256);
+                let g = Math.trunc(Math.random()*256);
+                let b = Math.trunc(Math.random()*256);
+
+                element.style.backgroundColor="rgb("+r+","+g+","+b+")";
+                
+            }
+            
+            window.setInterval("fun()", 600);
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!--program to demonstrate synchronus callback-->
+
+<html>
+    <body>
+        <script>
+            function fun1(callback)
+            {
+                document.write("Task 1 completed<br>");
+                callback(fun3);
+            }
+
+            function fun2(callback)
+            {
+                document.write("Task 2 completed<br>");
+                callback();
+            }
+            function fun3()
+            {
+                document.write("Task 3 completed<br>");
+            }
+
+            fun1(fun2);
+        </script>
+    </body>
+</html>

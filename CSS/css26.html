@@ -1,0 +1,35 @@
+<!--Pseudo Elements-->
+
+<html>
+    <head>
+        <style>
+            #demo::first-letter 
+            {
+                color: rgb(0, 9, 128);
+                font-size: 100px;
+            }
+
+            #test::first-line 
+            {
+                color: rgb(90, 128, 0);
+                font-size: 100px;
+            }
+
+            ::selection
+            {
+                color: pink;
+                background-color: rgb(0, 0, 0);
+            }
+
+            body {
+                background-color: rgb(0, 208, 255);
+            }
+        </style>
+    </head>
+
+    <body>
+        <p id="test">This is India</p>
+
+         <p id="demo">This is India my country</p>
+    </body>
+</html>
