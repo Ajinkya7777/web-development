@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+.heading {
+  font-size: 77px;
+  color: red;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.description {
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+  color: blue;
+  text-align: justify;
+}

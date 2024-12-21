@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: steelblue;
+      }
+      body {
+        overflow: scroll;
+      }
+      .container {
+        height: 250px;
+        width: 500px;
+        padding: 10px;
+        margin: 10px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 4px solid white;
+      }
+
+      .outside {
+        height: 50px;
+        width: 50px;
+        background-color: pink;
+        margin: 5px;
+        border: 3px solid fuchsia;
+      }
+      .outside.out1 {
+        position: relative;
+        left: 60px;
+        background-color: blue;
+      }
+
+      .box1,
+      .box2,
+      .box3,
+      .box4 {
+        background-color: aqua;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        border: 3px solid salmon;
+        font-size: 10px;
+        font-weight: bold;
+      }
+
+      .box1.first {
+        color: red;
+      }
+      .box2.second {
+        color: blue;
+      }
+      .box3.third {
+        color: teal;
+      }
+      .box4.fourth {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outside out1">out 1</div>
+    <div class="outside out2">out 2</div>
+    <div class="container">
+      <div class="box1 first">box1</div>
+      <!-- <div class="box2 second">box2</div>
+      <div class="box3 third">box3</div>
+      <div class="box4 fourth">box4</div> -->
+    </div>
+  </body>
+</html>
+
+<!-- when we have flex direction 'row' our main axis will be horizontal that 
+is when we do 'justify-content' 'center' it wil go to center on 'x' axis or we
+can 'main-axis' but in case of flex-direction 'column' our main axis will be
+vertical that is when we do 'justify-content' center then our item or box will
+move towards center on Y-axis or we can say cross axis 
+-->

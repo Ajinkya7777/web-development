@@ -1,0 +1,78 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  transition: backgroud-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #575757;
+}
+
+.nav-link:active {
+  background-color: #444;
+}
+
+/*
+
+padding: 20px; (Same value for all sides)
+padding: 20px 30px; (Top-Bottom: 20px, Left-Right: 30px)
+padding: 20px 30px 40px; (Top: 20px, Left-Right: 30px, Bottom: 40px)
+
+*/
+
+/*
+
+how to create box 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Padding vs Margin<title>
+    <link rel="stylesheet" href="styles.css" >
+  <head>
+  <body>
+    <div class="box">Hello, I’m a Box!<div>
+  <body>
+<html>
+
+ General Reset 
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ Box Styles 
+.box {
+  background-color: lightblue;  Box background color 
+  border: 2px solid darkblue;  Visible border 
+  padding: 20px;  Space inside the box 
+  margin: 30px;  Space outside the box 
+  color: white;
+  font-size: 20px;
+}
+
+*/

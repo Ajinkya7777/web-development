@@ -1,0 +1,10 @@
+.styled-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 15px;
+  border: 5px solid #ddd;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  display: block;
+}

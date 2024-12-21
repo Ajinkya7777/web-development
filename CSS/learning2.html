@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: black;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .btn {
+        background-color: aquamarine;
+        width: 70px;
+        border: none;
+        border-radius: 3px;
+        padding: 3px;
+        transition: transform 5s ease 1s;
+      }
+
+      .btn:hover {
+        opacity: 0.5;
+        background-color: aqua;
+        transform: rotate(360deg);
+      }
+
+      .btn:active {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="btn">click me</button>
+  </body>
+</html>

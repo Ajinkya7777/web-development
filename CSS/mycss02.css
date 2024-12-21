@@ -1,0 +1,101 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.child {
+  width: 200px;
+  height: 100px;
+  background-color: coral;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* Here’s a practical exercise to center a div both horizontally and vertically using Flexbox:
+
+---
+
+ HTML
+html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Centering</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child">Centered Box</div>
+    </div>
+  </body>
+</html>
+
+
+---
+
+ CSS
+css
+ Parent container styles 
+.parent {
+  display: flex;  Enables Flexbox 
+  justify-content: center;  Centers child horizontally 
+  align-items: center;  Centers child vertically 
+  height: 100vh;  Full viewport height 
+  background-color: lightblue;  Background for better visibility 
+}
+
+ Child element styles 
+.child {
+  width: 200px;
+  height: 100px;
+  background-color: coral;
+  color: white;
+  display: flex;  Flexbox inside child (optional for centering text) 
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;  Rounded corners 
+  font-size: 20px;
+}
+
+
+---
+
+ How It Works
+
+1. Flexbox Properties:
+   - display: flex; on the parent container activates Flexbox layout.
+   - justify-content: center; centers the child horizontally within the parent.
+   - align-items: center; centers the child vertically within the parent.
+
+2. Viewport Height:
+   - height: 100vh; ensures the parent container spans the full height of the viewport, making centering possible.
+
+3. Optional Child Flexbox:
+   - If the child contains text or elements, display: flex;, justify-content: center;, and align-items: center; within the child will center its content as well.
+
+---
+
+ CSS Concept for Improvement: *Flexbox Alignment*
+
+Flexbox simplifies layout alignment:
+- justify-content: Aligns items horizontally (flex-start, center, flex-end, space-between, etc.).
+- align-items: Aligns items vertically (flex-start, center, flex-end, etc.).
+- align-content: Aligns rows in multi-line flex containers.
+
+---
+
+ Actionable Points
+1. Experiment with different justify-content and align-items values to understand alignment.
+2. Try adding multiple child elements and observe how Flexbox handles alignment and spacing.
+3. Use gap to create consistent spacing between multiple children inside a Flexbox container.
+
+Let me know how this worked for you or if you need another example! */

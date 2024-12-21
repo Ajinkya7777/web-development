@@ -1,0 +1,28 @@
+* {
+  background-color: black;
+}
+
+.box {
+  border: 10px solid yellow;
+  color: red;
+  padding: 20px;
+  margin: 20px auto;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* * {
+  background-color: black;
+}
+
+.box {
+  border: 10px solid yellow;  Proper shorthand syntax for border 
+  color: red;
+  height: 50px;  Increased for better text alignment 
+  width: 100px;  Increased for better visibility 
+  padding: 20px;  Adjusted for reasonable spacing inside the box 
+  margin: 20px auto;  Centering the box horizontally 
+  text-align: center;  Center the text 
+  line-height: 50px; }   Align text vertically  */

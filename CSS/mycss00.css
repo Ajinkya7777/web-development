@@ -1,0 +1,30 @@
+* {
+  background-color: black;
+}
+.mybtn {
+  background-color: red;
+  width: 100px;
+}
+
+#mybtn2 {
+  background-color: yellow;
+  /* width: 100px;
+  height: 50px; */
+  padding: 10px 20px;
+  border-style: dotted;
+  border-width: 3px;
+  border-color: cyan;
+  border-radius: 50px;
+}
+
+.mybtn:hover,
+#mybtn2:hover {
+  background-color: blue;
+}
+
+.mybtn,
+#mybtn2 {
+  color: darkblue;
+  font-size: 15px;
+  text-align: center;
+}

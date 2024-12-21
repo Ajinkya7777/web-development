@@ -1,0 +1,8 @@
+.myimg {
+  height: auto; /* Auto to maintain aspect ratio */
+  width: 100%; /* Set width to 100% for responsiveness */
+  max-width: 500px; /* Limit the width to 500px */
+  display: block; /* Prevent image from being inline */
+  margin: 20px auto; /* Add margin for spacing around the image */
+  padding: 10px; /* Optional padding for spacing inside the image container */
+}
